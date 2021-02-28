@@ -8,6 +8,7 @@
 	"scripts": {
 		"dev": "nodemon server.js",
 		"start": "SET NODE_ENV=production && node server.js",
+		"export": "next export",
 		"build": "next build",
 		"deploy": "now --public"
 	},
